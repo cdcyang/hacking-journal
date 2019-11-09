@@ -1,0 +1,177 @@
+/* GENERAL ELEMENTS*/
+* {
+    box-sizing: border-box;
+
+}
+/* MAIN SPECIFICATIONS*/
+main {
+    margin: 0 auto;
+    max-width: 70rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: min-content;
+    grid-gap: 1rem;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 0.9;
+}
+/* BODY SPECIFICATIONS*/
+body {
+    font-family: Bahnschrift;
+    background-size: cover;
+    color: black;
+}
+/*HEADER POSITION*/
+header{
+    grid-column: 1/-1;
+    grid-row: 2;
+}
+/* H1 SPECIFICATIONS*/
+h1{
+    text-align: center;
+    color: black;
+}
+
+/* FORM ELEMENTS*/
+form {
+    text-align: center;
+}
+/*SET TABLE POSITION*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 90px;
+}
+fieldset{
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+/* CONTAINER POSITION*/
+.flightNoForm{
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+    padding: 10px;
+    align-content: center;
+}
+/* NAV ELEMENTS */
+nav {
+    grid-column: 1/-1;
+    grid-row: 1;
+    margin-left: 50px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/* LIST POSITION */
+nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+/* SET COLOR AND DECORATION OF LIST ELEMENTS*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+
+
+}
+/* CHANGE BACKGROUND COLOR WHEN HOVER*/
+nav ul li a:hover {
+    background-color: #1e1f26;
+    color: white;
+    padding-top: 2px;
+
+}
+/* REMOVE SECONDARY LIST*/
+nav ul li ul li {
+    display: none;
+}
+/* DISPLAY SECONDARY LIST WHEN HOVER*/
+ul li:hover ul li{
+    display: block;
+}
+
+/* REGISTER ELEMENTS*/
+input {
+    /* width: 100%; */
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* SUBMIT BUTTON */
+input[type=submit] {
+    background-color: black;
+    color: white;
+}
+/* SUBMIT BUTTON HOVER CHANGES */
+input[type=submit]:hover {
+    background-color: #1e1f26;
+}
+
+/* ONCLICK PASSWORD */
+#message {
+    grid-column: 1/-1;
+    display:none;
+    background: white;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+/* MESSAGE PARAGRAPH POSITION*/
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+/* ONCLICK EMAIL*/
+#messageE {
+    grid-column: 1/-1;
+    display:none;
+    background: white;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+/* MESSAGE PARAGRAPH POSITION*/
+#messageE p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* CHECKMARK */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* CROSS */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

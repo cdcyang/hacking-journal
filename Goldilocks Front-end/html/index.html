@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <header>    
+        <h1>Welcome to GoldiLocks</h1>
+        <div classntainer">
+            <form class="flightNoForm">
+                    <table>
+                            <tr>
+                                <td><label for="flight_number">Flight Number   :</label></td>
+                                <td><input id="flight_number" type="text" required/></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Submit" id="submit"/></td>
+                                <div class="invalid_message"></div>
+                            </tr>
+                    </table>
+            </form>
+        </div>
+        <div id="messageE">
+                <h3>A wrong flight number has been entered.</h3>
+                <h3>Please enter a valid flight number.</h3>
+                <p id="format" class="invalid"> <b>name.surname@example.com</b></p>
+            </div>
+    </header>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
