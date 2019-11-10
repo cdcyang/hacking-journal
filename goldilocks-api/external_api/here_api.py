@@ -7,11 +7,38 @@ _URLS = {'WEATHER': 'https://weather.api.here.com/weather/1.0/report.json',
 _KEYS = {'app_id': 'rJ7X74cBamfcaE5q6riO',
          'app_code': 'M1ccHgAFGm24WmU32PRh1Q', }
 
-# defining a params dict for the parameters to be sent to the API
-PARAMS = {**_KEYS,
-          'waypoint0': 'geo!52.5,13.4',
-          'waypoint1': 'geo!52.5,13.45',
-          'mode': 'fastest;car;traffic:disabled'}
+
+def request_route_for_car(start: str, destination: str):
+    params = {**_KEYS,
+              'product': 'observation',
+              'waypoint0': f'geo!{start}',
+              'waypoint1': f'geo!{destination}',
+              'mode': 'fastest;car;traffic:disabled', }
+
+    response = requests.get(url=_URLS.get('ROUTE'), params=params)
+    return response.json()
+
+
+def request_route_for_public(start: str, destination: str):
+    params = {**_KEYS,
+              'product': 'observation',
+              'waypoint0': f'geo!{start}',
+              'waypoint1': f'geo!{destination}',
+              'departure': 'now',
+              'mode': 'fastest;publicTransport',
+              'combineChange': 'true'}
+    response = requests.get(url=_URLS.get('ROUTE'), params=params)
+    return response.json()
+
+
+def request_route_for_bike(start: str, destination: str):
+    params = {**_KEYS,
+              'product': 'observation',
+              'waypoint0': f'geo!{start}',
+              'waypoint1': f'geo!{destination}',
+              'mode': 'fastest;bicycle', }
+    response = requests.get(url=_URLS.get('ROUTE'), params=params)
+    return response.json()
 
 
 def request_weather_for_location(location: str):

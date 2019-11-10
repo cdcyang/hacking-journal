@@ -1,10 +1,12 @@
 import csv
+import datetime
 
 import json
 
 from data.models import Flight, Airport, Weather
 from external_api.amadeus_api import request_flight_delay
-from external_api.here_api import request_weather_for_location
+from external_api.here_api import request_weather_for_location, request_route_for_public, request_route_for_bike, \
+    request_route_for_car
 
 _flights = dict()
 _airports = dict()
@@ -63,12 +65,32 @@ class DataController:
         response = request_weather_for_location(location)
         return _adapt_to_domain_weather(response) if response else None
 
-    def get_route_information(self, flight_code: str):
+    def get_route_information(self, start_lat: float, start_lon: float, flight_code: str):
         flight = self._flights.get(flight_code)
         if not flight:
             return None
 
+        airport = self._airports.get(flight.departure.get('iataCode'))
+        if not airport:
+            return None
+
         delay = request_flight_delay(flight)
 
-        airport = _airports.get(flight.departure.get('iataCode'))
-        return None
+        start_coor = f'{start_lat},{start_lon}'
+        airport_coor = f'{airport.latitude},{airport.longitude}'
+
+        car_travel = request_route_for_car(start_coor, airport_coor)
+        car_travel_time = str(datetime.timedelta(
+            seconds=int(car_travel.get('response').get('route')[0].get('summary').get('travelTime'))))
+
+        public_travel = request_route_for_public(start_coor, airport_coor)
+        public_travel_time = str(datetime.timedelta(
+            seconds=int(public_travel.get('response').get('route')[0].get('summary').get('travelTime'))))
+        #
+        # bike_travel = request_route_for_bike(start_coor, airport_coor)
+        # bike_travel_time = str(datetime.timedelta(
+        #     seconds=int(bike_travel.get('response').get('route')[0].get('summary').get('travelTime'))))
+
+        return {'car': car_travel_time,
+                'public_transport': public_travel_time, }
+        # 'bike': bike_travel_time}
