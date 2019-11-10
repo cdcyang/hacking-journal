@@ -19,6 +19,13 @@ def get_flights():
     return return_response(result, f'Unable to find flight information for [flight={flight_code}]')
 
 
+@app.route('/airport', methods=['GET'])
+def get_airport():
+    airport_code = request.args.get('code', '').upper()
+    result = controller.get_airport(airport_code)
+    return return_response(result, f'Unable to find airport information for [airport={airport_code}]')
+
+
 @app.route('/route', methods=['GET'])
 def get_route():
     flight_code = request.args.get('code', '').upper()

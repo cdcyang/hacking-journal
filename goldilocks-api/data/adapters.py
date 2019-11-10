@@ -25,7 +25,8 @@ def _adapt_to_domain_flight(data: dict):
                   carrier_number=meta_data.get('number'),
                   aircraft=meta_data.get('aircraft').get('code'),
                   departure=meta_data.get('departure'),
-                  arrival=meta_data.get('arrival'))
+                  arrival=meta_data.get('arrival'),
+                  gate=42)
 
 
 def _source_airports_from_csv():
@@ -35,8 +36,9 @@ def _source_airports_from_csv():
         next(reader)
 
         for r in reader:
-            airports[r[0]] = Airport(r[0], r[1], r[2], r[3], r[4], float(r[5]), float(r[6]))
-        return airports
+            code = r[0]
+            airports[code] = Airport(code, r[1], r[2], r[3], r[4], float(r[5]), float(r[6]))
+    return airports
 
 
 def _adapt_to_domain_weather(response: dict):
@@ -53,6 +55,9 @@ class DataController:
 
     def get_flight(self, flight_code: str):
         return self._flights.get(flight_code)
+
+    def get_airport(self, airport_code: str):
+        return self._airports.get(airport_code)
 
     def get_weather(self, location: str):
         response = request_weather_for_location(location)

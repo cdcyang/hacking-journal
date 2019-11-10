@@ -7,6 +7,7 @@ class Flight:
     carrier_code: str
     carrier_number: int
     aircraft: str
+    gate: int
     departure: dict
     arrival: dict
 
