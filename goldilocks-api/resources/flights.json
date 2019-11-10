@@ -1,0 +1,2060 @@
+[
+  {
+    "type": "flight-offer",
+    "id": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H45M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LGW",
+              "terminal": "S",
+              "at": "2019-11-10T10:00:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T14:45:00"
+            },
+            "carrierCode": "DI",
+            "number": "7043",
+            "aircraft": {
+              "code": "789"
+            },
+            "operating": {
+              "carrierCode": "DI"
+            },
+            "duration": "PT9H45M",
+            "id": "12",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "243.32",
+      "base": "104.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "243.32"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "DY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "243.32",
+          "base": "104.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "12",
+            "cabin": "ECONOMY",
+            "fareBasis": "QLCSRGB",
+            "class": "Q",
+            "includedCheckedBags": {
+              "quantity": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "2",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:20:00"
+            },
+            "carrierCode": "VS",
+            "number": "117",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "3",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1706.51",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1706.51"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "VS"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1706.51",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "3",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "CLASSIC",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "3",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T12:55:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T18:05:00"
+            },
+            "carrierCode": "VS",
+            "number": "5",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "7",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1706.51",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1706.51"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "VS"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1706.51",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "7",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "CLASSIC",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "4",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:20:00"
+            },
+            "carrierCode": "DL",
+            "number": "4342",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "4",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1706.51",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1706.51"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "DL"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1706.51",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "4",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "MAINCABIN",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "5",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T12:55:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T18:05:00"
+            },
+            "carrierCode": "DL",
+            "number": "4386",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "8",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1706.51",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1706.51"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "DL"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1706.51",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "8",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "MAINCABIN",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "6",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:20:00"
+            },
+            "carrierCode": "KL",
+            "number": "4812",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "5",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1719.27",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1719.27"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1719.27",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "5",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "FULLFLEX",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "7",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T12:55:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T18:05:00"
+            },
+            "carrierCode": "KL",
+            "number": "4816",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "9",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1719.27",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1719.27"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1719.27",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "9",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "FULLFLEX",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "8",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:20:00"
+            },
+            "carrierCode": "AF",
+            "number": "9908",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "6",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1719.27",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1719.27"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1719.27",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "6",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "FULLFLEX",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "9",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-09",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H10M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T12:55:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T18:05:00"
+            },
+            "carrierCode": "AF",
+            "number": "6754",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "VS"
+            },
+            "duration": "PT10H10M",
+            "id": "10",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1719.27",
+      "base": "1478.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1719.27"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1719.27",
+          "base": "1478.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "10",
+            "cabin": "ECONOMY",
+            "fareBasis": "BFUF0OMN",
+            "brandedFare": "FULLFLEX",
+            "class": "B",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "10",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H45M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T16:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T20:55:00"
+            },
+            "carrierCode": "AY",
+            "number": "5408",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H45M",
+            "id": "14",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1957.29",
+      "base": "1665.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1957.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1957.29",
+          "base": "1665.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "14",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "11",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T09:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T14:25:00"
+            },
+            "carrierCode": "AY",
+            "number": "5507",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H50M",
+            "id": "16",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1957.29",
+      "base": "1665.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1957.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1957.29",
+          "base": "1665.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "16",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "12",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H55M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T14:15:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T19:10:00"
+            },
+            "carrierCode": "AY",
+            "number": "5509",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H55M",
+            "id": "21",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1957.29",
+      "base": "1665.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1957.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1957.29",
+          "base": "1665.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "21",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "13",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 7,
+    "itineraries": [
+      {
+        "duration": "PT9H55M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:30:00"
+            },
+            "carrierCode": "AY",
+            "number": "4029",
+            "aircraft": {
+              "code": "772"
+            },
+            "operating": {
+              "carrierCode": "AA"
+            },
+            "duration": "PT9H55M",
+            "id": "19",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1957.29",
+      "base": "1665.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1957.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1957.29",
+          "base": "1665.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "19",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "14",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 7,
+    "itineraries": [
+      {
+        "duration": "PT10H",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T12:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T17:35:00"
+            },
+            "carrierCode": "AY",
+            "number": "4228",
+            "aircraft": {
+              "code": "77W"
+            },
+            "operating": {
+              "carrierCode": "AA"
+            },
+            "duration": "PT10H",
+            "id": "2",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1957.29",
+      "base": "1665.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1957.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AY"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1957.29",
+          "base": "1665.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "2",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "15",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H45M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T16:10:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T20:55:00"
+            },
+            "carrierCode": "BA",
+            "number": "211",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H45M",
+            "id": "15",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "BA"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "15",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "ECONFLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "16",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T09:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T14:25:00"
+            },
+            "carrierCode": "BA",
+            "number": "207",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H50M",
+            "id": "17",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "BA"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "17",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "ECONFLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "17",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H55M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T14:15:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T19:10:00"
+            },
+            "carrierCode": "BA",
+            "number": "209",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H55M",
+            "id": "22",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "BA"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "22",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "ECONFLEX",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "18",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T09:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T14:25:00"
+            },
+            "carrierCode": "IB",
+            "number": "7397",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H50M",
+            "id": "18",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "IB"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "18",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEXIBLE",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "19",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H55M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T14:15:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T19:10:00"
+            },
+            "carrierCode": "IB",
+            "number": "7399",
+            "aircraft": {
+              "code": "744"
+            },
+            "operating": {
+              "carrierCode": "BA"
+            },
+            "duration": "PT9H55M",
+            "id": "23",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "IB"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "23",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEXIBLE",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "20",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 7,
+    "itineraries": [
+      {
+        "duration": "PT9H55M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "terminal": "3",
+              "at": "2019-11-10T10:35:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:30:00"
+            },
+            "carrierCode": "IB",
+            "number": "4228",
+            "aircraft": {
+              "code": "772"
+            },
+            "operating": {
+              "carrierCode": "AA"
+            },
+            "duration": "PT9H55M",
+            "id": "20",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "1968.29",
+      "base": "1676.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "1968.29"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "IB"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "1968.29",
+          "base": "1676.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "20",
+            "cabin": "ECONOMY",
+            "fareBasis": "Y1N0C9M0",
+            "brandedFare": "FLEXIBLE",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "21",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT9H45M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "at": "2019-11-10T10:45:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T15:30:00"
+            },
+            "carrierCode": "6X",
+            "number": "5157",
+            "aircraft": {
+              "code": "340"
+            },
+            "operating": {
+              "carrierCode": "6X"
+            },
+            "duration": "PT9H45M",
+            "id": "13",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "2238.32",
+      "base": "2062.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "2238.32",
+      "additionalServices": [
+        {
+          "amount": "1.00",
+          "type": "CHECKED_BAGS"
+        }
+      ]
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "6X"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "2238.32",
+          "base": "2062.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "13",
+            "cabin": "ECONOMY",
+            "fareBasis": "YABAMILO",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "22",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT10H",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "at": "2019-11-10T09:00:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-10T14:00:00"
+            },
+            "carrierCode": "6X",
+            "number": "521",
+            "aircraft": {
+              "code": "747"
+            },
+            "operating": {
+              "carrierCode": "6X"
+            },
+            "duration": "PT10H",
+            "id": "1",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "2238.32",
+      "base": "2062.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "2238.32",
+      "additionalServices": [
+        {
+          "amount": "1.00",
+          "type": "CHECKED_BAGS"
+        }
+      ]
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "6X"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "2238.32",
+          "base": "2062.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "1",
+            "cabin": "ECONOMY",
+            "fareBasis": "YABAMILO",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "23",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2019-11-10",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT18H30M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "LHR",
+              "at": "2019-11-10T16:50:00"
+            },
+            "arrival": {
+              "iataCode": "MIA",
+              "at": "2019-11-11T06:20:00"
+            },
+            "carrierCode": "6X",
+            "number": "209",
+            "aircraft": {
+              "code": "747"
+            },
+            "operating": {
+              "carrierCode": "6X"
+            },
+            "duration": "PT18H30M",
+            "id": "11",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "EUR",
+      "total": "2238.32",
+      "base": "2062.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "2238.32",
+      "additionalServices": [
+        {
+          "amount": "1.00",
+          "type": "CHECKED_BAGS"
+        }
+      ]
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "6X"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "EUR",
+          "total": "2238.32",
+          "base": "2062.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "11",
+            "cabin": "ECONOMY",
+            "fareBasis": "YABAMILO",
+            "class": "Y",
+            "includedCheckedBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
