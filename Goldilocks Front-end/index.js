@@ -9,8 +9,10 @@ $(document).ready(() => {
             //sendFlightNumber(flight_number);
             $('.invalid_message').html('');
             var jsonData = {
-                "data" : 10,
-                "name" : "emre"
+                "airline_info" : {
+                    "code"  : flight_number,
+                    "name" : "London Heathrow Airport"
+                },
             };
             var encodedData = btoa(JSON.stringify(jsonData));
             window.location.href = "../html/flightDetails.html?data=" + encodedData;
