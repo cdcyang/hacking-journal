@@ -7,49 +7,87 @@
 <body>
 <main>
 
-    <header>
-        <h1>Travel Options</h1>
-    
+    <header>        
     <div class="container">
-        <h2>Navigation</h2>
-        <form>
-            <tr>
-            <td></td>
-            <td><input type="text" id="text1"/></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="text2"/></td>
-            </tr>
-        </form>
-        <h2>Travel Options</h2>
-        <form>
-            <tr>
-                <td class="uber_time">{uber_time}</td>
-                <td class="uber_cost">{uber_cost}</td>
-                <td><input type="text"></td>
-            </tr>
-
-            <tr>
-                <td></td>
-                <td><input type="submit" value="Train" id="submit2"/></td>
-            </tr>
-        </form>
-
         
         <form>
-                <table>
-                    <tr>
-                        
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="submit" value="Plan my Trip" id="submit"/></td>
-                    </tr>
-                </table>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><h1>Transport</h1></td></tr>
+                <tr>
+                    <td></td>
+                    <td><h2>Navigation</h2></td>
+                </tr>
+                <td>
+                    <td></td>
+                    <td><p>Start Location :</p><input type="text" id="start_location" data="70 Wilson Street, Finsbury, London, EC2A 2DB"/></td>
+                </td>
+                <tr>
+                    <td></td>
+                    <td><p>Airport :</p><input type="text" id="airport_address"/></td>
+                </tr>
+            </table>
+
+            <div class="hid">
+            <table>
+                <tr>
+                    <td></td>
+                    <td><h2>Travel Options</h2></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p id="car">Car :</p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p id="public_transport">Public Transport : 56 min, £10.10</p></td>
+                </tr>
+            </table>
+            </div>
+            <div id="myProgress">
+                <div id="myBar">10%</div>
+            </div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><h4>Departure Time</h4></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>11:00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Conditions :</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Light</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Sunny</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><h4>Arrival at airport</h4></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>12:00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Plan my Trip" id="submit"/></td>
+                </tr>
+            </table>
         </form>
     </div>
 </header>
 </main>
+<script type="text/javascript" src="../progressBar.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../travel.js"></script>
 </body>
 </html>

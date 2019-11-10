@@ -1,25 +1,34 @@
 $(document).ready(() => {
     var flight_details = atob(window.location.href.split('=')[1]);
-    flight_details = JSON.parse(flight_details);
+    var details = JSON.parse(flight_details);
     // console.log(flight_details);
     // var flight_details = flight_details.parseJSON();
-    $('.airline').html(flight_details.airline_info.airline);
-    $('.departure_airport').html(flight_details.airline_info.name);
-    // $('.arrival_airport').html(flight_details.arrival_info.name);
-    // $('.departure_time').html(flight_details.departure_time);
-    // $('.arrival_time').html(flight_details.arrival_time);
-    $.ajax({
-        type: 'GET',
-        url: 'localhost:5500/flight',
-        xhrFields: {
-            withCredentials: true
-        },
-        success: res => {
-        }
-    });
+
+    $('.departure_airport').html(details.departure.iataCode);
+    $('.arrival_airport').html(details.arrival.iataCode);
+    $('.departure_time').html(details.departure.at.split('T')[1]);
+    $('.arrival_time').html(details.arrival.at.split('T')[1]);
+    // $.ajax({
+    //     type: 'GET',
+    //     url: 'localhost:5000/flight?code=' + details.depar,
+    //     xhrFields: {
+    //         withCredentials: true
+    //     },
+    //     success: res => {
+    //         var data = JSON.parse(res);
+    //         $('.departure_airport').html(data.departure.iataCode);
+    //         $('.arrival_airport').html(data.arrival.iataCode);
+    //         $('.departure_time').html(data.departure.at.split('T')[1]);
+    //         $('.arrival_time').html(data.arrival.at.split('T')[1]);
+    //     }
+    // });
     
-    $('#form').on('submit', (e) => {
+    $('.form').on('submit', (e) => {
         e.preventDefault();
-        window.location.href = "travel.html";
+        // var encodedData = btoa(details.departure.iataCode);
+        var encodedData = btoa({
+            "testing" : "123"
+        });
+        window.location.href = "../html/travel.html?data=" + encodedData;
     });
 });

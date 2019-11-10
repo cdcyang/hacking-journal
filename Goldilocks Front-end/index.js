@@ -2,8 +2,8 @@ $(document).ready(() => {
     $('.flightNoForm').on('submit', (e) => {
         e.preventDefault();
         var flight_number = $('#flight_number').val();
-        // var regex = /^\b[A-Z]{2}\d{3,4}\b$/;
-        var regex = /^\b[A-Z]{3}\b$/;
+        var regex = /^\b[A-Z]{2}\d{3,4}\b$/;
+        // var regex = /^\b[A-Z]{3}\b$/;
         if(flight_number.match(regex)){
             //Call back-end...
             //sendFlightNumber(flight_number);
@@ -24,11 +24,10 @@ $(document).ready(() => {
     function sendFlightNumber(flight_number) {
         $.ajax({
             type: 'GET',
-            url: 'localhost:5500/flight',
+            url: 'localhost:5000/flight?code=' + flight_number,
             xhrFields: {
                 withCredentials: true
             },
-            data: flight_number,
             success: res => {
                 console.log(res);
             }
