@@ -7,8 +7,13 @@ $(document).ready(() => {
         if(flight_number.match(regex)){
             //Call back-end...
             //sendFlightNumber(flight_number);
-            // $('.invalid_message').html('');
-            window.location.href = "/flightDetails.html";
+            $('.invalid_message').html('');
+            var jsonData = {
+                "data" : 10,
+                "name" : "emre"
+            };
+            var encodedData = btoa(JSON.stringify(jsonData));
+            window.location.href = "../html/flightDetails.html?data=" + encodedData;
         } else {
             $('.invalid_message').html('<p>Flight number is incorrect, please enter a valid flight number.</p>');
         }
@@ -24,8 +29,6 @@ $(document).ready(() => {
             data: flight_number,
             success: res => {
                 console.log(res);
-                $('.invalid_message').html('');
-                window.location.href = "/flightDetails.html";
             }
         });
     }
