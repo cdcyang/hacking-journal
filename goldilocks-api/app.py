@@ -28,9 +28,14 @@ def get_airport():
 
 @app.route('/route', methods=['GET'])
 def get_route():
+    start_lat = 51.5218
+    start_lon = -0.0844
     flight_code = request.args.get('code', '').upper()
-    result = controller.get_route_information(flight_code)
-    return return_response(result, f'Unable to find flight information for [flight={flight_code}]')
+    result = controller.get_route_information(start_lat, start_lon, flight_code)
+    return app.response_class(
+        response=json.dumps(result),
+        status=200,
+        mimetype='application/json')
 
 
 @app.route('/weather')
