@@ -6,7 +6,7 @@ cffi==1.13.1
 chardet==3.0.4
 Click==7.0
 colorama==0.4.1
-cryptography==2.8
+cryptography==3.2
 dataclasses==0.6
 dataclasses-serialization==1.2.3
 Flask==1.1.1
